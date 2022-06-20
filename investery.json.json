@@ -1,0 +1,427 @@
+[
+{
+    "type": "header",
+    "version": "5.1.0",
+    "comment": "Export to JSON plugin for PHPMyAdmin"
+},
+{
+    "type": "database",
+    "name": "investery"
+},
+{
+    "type": "table",
+    "name": "customer",
+    "database": "investery",
+    "data": 
+[
+{
+    "cus_id": "401",
+    "cus_name": "NIKHIL",
+    "cus_email": "NIKHIL@GMAIL.COM",
+    "cus_moblie_num": "9812564472",
+    "cus_address": "SARU SECTION ROAD ,JAMNAGAR",
+    "cus_pan": "PM455JH4",
+    "user_id": "LS103"
+},
+{
+    "cus_id": "402",
+    "cus_name": "ABHAY",
+    "cus_email": "ABHAY@GMAIL.COM",
+    "cus_moblie_num": "7016599878",
+    "cus_address": "PATEL COLONY,JAMNAGAR",
+    "cus_pan": "MP448KL8",
+    "user_id": "LS104"
+},
+{
+    "cus_id": "403",
+    "cus_name": "HARSH",
+    "cus_email": "HARSHYU@GMAIL.COM",
+    "cus_moblie_num": "5589566993",
+    "cus_address": "MAHAVEER SOCITY,SURAT",
+    "cus_pan": "KJ448KL8",
+    "user_id": "LS101"
+},
+{
+    "cus_id": "404",
+    "cus_name": "JAM",
+    "cus_email": "JAMJAM@GMAIL.COM",
+    "cus_moblie_num": "2147483647",
+    "cus_address": "US MARKET,NADIAD",
+    "cus_pan": "KJ448PO8",
+    "user_id": "LS106"
+}
+]
+
+}
+,{
+    "type": "table",
+    "name": "login",
+    "database": "investery",
+    "data": 
+[
+{
+    "login_username": "MIHIR",
+    "login_password": "73982013be4b31788669",
+    "login_role_id": "200",
+    "login_id": "LS101"
+},
+{
+    "login_username": "RAJU",
+    "login_password": "5d226ae69d7413df5123",
+    "login_role_id": "500",
+    "login_id": "LS102"
+},
+{
+    "login_username": "YASH",
+    "login_password": "91ca6647cfb9a3ceebc8",
+    "login_role_id": "200",
+    "login_id": "LS103"
+},
+{
+    "login_username": "KULDIP",
+    "login_password": "47067728daa9bc6e6277",
+    "login_role_id": "300",
+    "login_id": "LS104"
+},
+{
+    "login_username": "RAM",
+    "login_password": "98f8c0e426c80ef73da5",
+    "login_role_id": "300",
+    "login_id": "LS105"
+},
+{
+    "login_username": "HARSH",
+    "login_password": "0127b03ca9700e539693",
+    "login_role_id": "200",
+    "login_id": "LS106"
+},
+{
+    "login_username": "NIKUNJ",
+    "login_password": "77113177b98eaff56855",
+    "login_role_id": "200",
+    "login_id": "LS107"
+},
+{
+    "login_username": "HERO",
+    "login_password": "db7e95981a3da3131339",
+    "login_role_id": "300",
+    "login_id": "LS108"
+}
+]
+
+}
+,{
+    "type": "table",
+    "name": "order_d",
+    "database": "investery",
+    "data": 
+[
+{
+    "order_id": "101",
+    "order_quinity": "5",
+    "order_prize": "300",
+    "order_date": "2020-12-25",
+    "pay_id": "701",
+    "cus_id": "401",
+    "product_id": "8P7"
+},
+{
+    "order_id": "102",
+    "order_quinity": "1",
+    "order_prize": "250",
+    "order_date": "2020-01-28",
+    "pay_id": "703",
+    "cus_id": "402",
+    "product_id": "CSK"
+},
+{
+    "order_id": "103",
+    "order_quinity": "4",
+    "order_prize": "49000",
+    "order_date": "2020-01-28",
+    "pay_id": "703",
+    "cus_id": "402",
+    "product_id": "KBC"
+},
+{
+    "order_id": "104",
+    "order_quinity": "10",
+    "order_prize": "80000",
+    "order_date": "2020-11-30",
+    "pay_id": "702",
+    "cus_id": "401",
+    "product_id": "PZ7"
+},
+{
+    "order_id": "105",
+    "order_quinity": "11",
+    "order_prize": "80000",
+    "order_date": "2020-08-01",
+    "pay_id": "710",
+    "cus_id": "403",
+    "product_id": "PZ7"
+},
+{
+    "order_id": "106",
+    "order_quinity": "25",
+    "order_prize": "523",
+    "order_date": "2020-03-08",
+    "pay_id": "708",
+    "cus_id": "404",
+    "product_id": "AB2"
+},
+{
+    "order_id": "107",
+    "order_quinity": "15",
+    "order_prize": "25000",
+    "order_date": "2020-03-08",
+    "pay_id": "708",
+    "cus_id": "404",
+    "product_id": "8ZZ"
+},
+{
+    "order_id": "108",
+    "order_quinity": "3",
+    "order_prize": "550000",
+    "order_date": "2020-11-05",
+    "pay_id": "711",
+    "cus_id": "402",
+    "product_id": "87Z"
+},
+{
+    "order_id": "109",
+    "order_quinity": "8",
+    "order_prize": "75000",
+    "order_date": "2020-02-27",
+    "pay_id": "705",
+    "cus_id": "403",
+    "product_id": "11Z"
+},
+{
+    "order_id": "110",
+    "order_quinity": "7",
+    "order_prize": "25000",
+    "order_date": "2020-12-25",
+    "pay_id": "701",
+    "cus_id": "401",
+    "product_id": "87Z"
+}
+]
+
+}
+,{
+    "type": "table",
+    "name": "pay",
+    "database": "investery",
+    "data": 
+[
+{
+    "cus_pay_id": "1122",
+    "pay_id": "701",
+    "pay_desc": "UPI",
+    "pay_date": "2020-12-25",
+    "pay_amount": "280000"
+},
+{
+    "cus_pay_id": "1024",
+    "pay_id": "702",
+    "pay_desc": "UPI",
+    "pay_date": "2020-12-01",
+    "pay_amount": "80000"
+},
+{
+    "cus_pay_id": "1058",
+    "pay_id": "703",
+    "pay_desc": "CASH",
+    "pay_date": "2020-02-05",
+    "pay_amount": "108300"
+},
+{
+    "cus_pay_id": "2038",
+    "pay_id": "705",
+    "pay_desc": "CASH",
+    "pay_date": "2020-05-05",
+    "pay_amount": "75000"
+},
+{
+    "cus_pay_id": "1189",
+    "pay_id": "708",
+    "pay_desc": "UPI",
+    "pay_date": "2020-05-03",
+    "pay_amount": "852300"
+},
+{
+    "cus_pay_id": "5007",
+    "pay_id": "710",
+    "pay_desc": "NET BANKING",
+    "pay_date": "2020-12-25",
+    "pay_amount": "102300"
+},
+{
+    "cus_pay_id": "1050",
+    "pay_id": "711",
+    "pay_desc": "CASH",
+    "pay_date": "2020-09-05",
+    "pay_amount": "550000"
+}
+]
+
+}
+,{
+    "type": "table",
+    "name": "product",
+    "database": "investery",
+    "data": 
+[
+{
+    "product_id": "11Z",
+    "product_name": "SUMSUNG M88",
+    "product_type": "PHONE",
+    "product_items": "7",
+    "product_prize": "60000"
+},
+{
+    "product_id": "87Z",
+    "product_name": "PENDRIVE",
+    "product_type": "ASS",
+    "product_items": "8",
+    "product_prize": "9000"
+},
+{
+    "product_id": "8P7",
+    "product_name": "BOAT HEADPHONE",
+    "product_type": "MUSIC LIS",
+    "product_items": "25",
+    "product_prize": "6250"
+},
+{
+    "product_id": "8Z7",
+    "product_name": "JBL 405PH",
+    "product_type": "MUSIC LIS",
+    "product_items": "2",
+    "product_prize": "3000"
+},
+{
+    "product_id": "8ZZ",
+    "product_name": "3D GAME CRICKET",
+    "product_type": "GAME",
+    "product_items": "8",
+    "product_prize": "30000"
+},
+{
+    "product_id": "ABZ",
+    "product_name": "HP 15DK0047",
+    "product_type": "LAPTOP",
+    "product_items": "4",
+    "product_prize": "180000"
+},
+{
+    "product_id": "CSK",
+    "product_name": "MOUSE",
+    "product_type": "ASS",
+    "product_items": "20",
+    "product_prize": "15000"
+},
+{
+    "product_id": "KBC",
+    "product_name": "DELL XXZ",
+    "product_type": "LAPTOP",
+    "product_items": "25",
+    "product_prize": "990000"
+},
+{
+    "product_id": "PZ7",
+    "product_name": "IPHONE",
+    "product_type": "PHONE",
+    "product_items": "5",
+    "product_prize": "490000"
+}
+]
+
+}
+,{
+    "type": "table",
+    "name": "roles",
+    "database": "investery",
+    "data": 
+[
+{
+    "role_id": "200",
+    "role_name": "STAFF",
+    "role_desc": "HARD WORKER"
+},
+{
+    "role_id": "300",
+    "role_name": "CO-MANAGER",
+    "role_desc": "MANAGE"
+},
+{
+    "role_id": "500",
+    "role_name": "MANAGER",
+    "role_desc": "ALL MANAGE"
+}
+]
+
+}
+,{
+    "type": "table",
+    "name": "stock",
+    "database": "investery",
+    "data": 
+[
+{
+    "stock_id": "11Z",
+    "stock_quntity": "85",
+    "stock_type": "PHONE"
+},
+{
+    "stock_id": "87Z",
+    "stock_quntity": "1080",
+    "stock_type": "ASS"
+},
+{
+    "stock_id": "8P7",
+    "stock_quntity": "8000",
+    "stock_type": "MUSIC LIS"
+}
+]
+
+}
+,{
+    "type": "table",
+    "name": "username",
+    "database": "investery",
+    "data": 
+[
+{
+    "user_id": "LS101",
+    "user_name": "MIHIR",
+    "user_email": "9845678913",
+    "user_moblie_num": "8899556677",
+    "user_address": "AARTI SOCIETY,SURAT"
+},
+{
+    "user_id": "LS103",
+    "user_name": "YASH KANJIYA",
+    "user_email": "9328711593",
+    "user_moblie_num": "9328711593",
+    "user_address": "PATEL COLONY,JAMNAGAR"
+},
+{
+    "user_id": "LS104",
+    "user_name": "KULDIP",
+    "user_email": "7065898778",
+    "user_moblie_num": "9873256789",
+    "user_address": "SQURE CIRCULE,NADIAD"
+},
+{
+    "user_id": "LS108",
+    "user_name": "HERO PARMAR",
+    "user_email": "1111555566",
+    "user_moblie_num": "7016288995",
+    "user_address": "JUMP ROAD,MOON"
+}
+]
+
+}
+]
